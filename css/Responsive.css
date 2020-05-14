@@ -1,0 +1,97 @@
+/* XL(laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+  .features-content p {
+    display: none;
+}
+
+.features-title a {
+  display: block;
+}
+
+.features-content {
+  right: 0;
+/***width: 100%;**/
+}
+
+.features-content {
+
+  padding-top: 17px;
+}
+.features-content h3 {
+ 
+  margin-bottom: 22px;
+}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .video-bg {
+    margin-bottom: 22px;
+}
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+  .logo a img {
+
+    padding-top: 22px;
+  
+  }
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 576px)  {
+
+  .slider-wrapper h1{
+    font-size: 47px;
+  }
+
+  .chose-list {
+    padding-top: 15px;
+}
+
+.blog-thumb {
+  display: none;
+}
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
